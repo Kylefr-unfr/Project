@@ -1,0 +1,17 @@
+body{background-color:aliceblue}
+li{color:black}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body{
+    font-weight: 100;
+  }
+  img{border-style: groove;
+border-radius:15px;
+border-width:5px}
+.orange-cat-section {
+  border: 3px solid #ff6600; /* Orange border */
+  padding: 20px;
+  margin-top: 30px;
+  background-color: #fff9e6;
+}
