@@ -1,4 +1,4 @@
-body{background-color:aliceblue}
+body{background-color:ghostwhite}
 li{color:black}
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -8,10 +8,33 @@ body{
   }
   img{border-style: groove;
 border-radius:15px;
+border-color:orange;
 border-width:5px}
 .orange-cat-section {
   border: 3px solid #ff6600; /* Orange border */
   padding: 20px;
   margin-top: 30px;
   background-color: #fff9e6;
+}
+  #header{color:aqua;
+  text-align:center;
+}
+header {
+  background-color: #ff6600;
+  text-align: center;
+  padding: 20px 0;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+div {
+  padding: 20px;
+  max-width: 900px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

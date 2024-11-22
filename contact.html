@@ -1,3 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff6600;
+            text-align: center;
+            padding: 20px 0;
+            color: #fff;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .contact-details, .contact-form {
+            margin-bottom: 30px;
+        }
+
+        .contact-details p, .contact-form p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            background-color: #ff6600;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #e55b00;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <div class="content">
+        <section class="contact-details">
+            <h2>Our Contact Information</h2>
+            <p>If you have any questions, feel free to reach out to us using the contact form below or by using the contact details provided.</p>
+            <p><strong>Email:</strong> kyle.giathi@student.moringa.com</p>
+            <p><strong>Phone:</strong> 0722564827</p>
+            <p><strong>Address:</strong> 123 Cat Street, Pet City, PC 12345</p>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <p><label for="name">Your Name:</label></p>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <p><label for="email">Your Email:</label></p>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <p><label for="message">Your Message:</label></p>
+                <textarea id="message" name="message" rows="6" placeholder="Enter your message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
 
 
 
